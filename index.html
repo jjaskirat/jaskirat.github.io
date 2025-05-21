@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="mobile-web-app-capable" content="yes">
+
+    <link rel="shortcut icon" href="big_j.jpg" type="image/x-icon">
+    <link rel="icon" href="favicon.ico">
+    
+    <meta property="og:title" content="Jaskirat's Secret Hideout">
+    <meta property="og:description" content="Links to my socials and shit I've made">
+    <meta property="og:image" content="big_j.jpg">
+    <meta property="og:url" content="https://jaskirat.net/">
+    <meta property="og:type" content="website">
+    <title>Jaskirat's Lair</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <canvas id="particles"></canvas>
+    <img id="bouncing-image" alt="Bouncing Image">
+    <div class="container">
+        <h1 id="rocketgod-header">
+            <span class="header-letter">J</span>
+            <span class="header-letter">A</span>
+            <span class="header-letter">S</span>
+            <span class="header-letter">K</span>
+            <span class="header-letter">I</span>
+            <span class="header-letter">R</span>
+            <span class="header-letter">A</span>
+            <span class="header-letter">T</span>
+        </h1>
+        <div class="links-container">
+            <div class="links-section">
+                <br>
+                <div class="links">
+                    <a href="https://discord.gg/mkxgJvcydS" target="_blank" rel="noopener noreferrer" class="social-icon" title="Join The Butcher's Discord Server"><i class="fab fa-discord"></i></a>
+                    <a href="https://www.linkedin.com/in/jaskirat-singh-bhatia" target="_blank" rel="noopener noreferrer" class="social-icon" title="Jaskirat's LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/its_jaski" target="_blank" rel="noopener noreferrer" class="social-icon" title="Follow Jaskirat on Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="https://github.com/jjaskirat/" target="_blank" rel="noopener noreferrer" class="social-icon" title="Jaskirat's GitHub"><i class="fab fa-github"></i></a>
+                    <a href="mailto:jaskirat.bhatia.work@gmail.com" target="_blank" rel="noopener noreferrer" class="social-icon" title="Jaskirat's Email"><i class="fa fa-envelope"></i></a>
+                    </a>
+                </div>
+            </div>
+            <br>
+            <h3>SOCIALS 👆 SHIT I'VE MADE 👇</h3>
+            <!-- <div class="links-section">
+                <h3>SOCIALS 👆 SHIT I'VE MADE 👇</h3>
+                <div class="project-flex">
+                    <a href="https://fuckyou.gay" target="_blank" rel="noopener noreferrer" class="project-card">
+                        <span class="project-title">fuckyou.gay</span>
+                        <span class="project-desc">I dare ya</span>
+                    </a>
+                    <a href="https://github.com/portapack-mayhem/mayhem-firmware/tree/next/firmware/application/external/breakout"
+                        target="_blank" rel="noopener noreferrer" class="project-card">
+                        <span class="project-title">Breakout game</span>
+                        <span class="project-desc">HackRF Portpack</span>
+                    </a>
+                    <a href="https://github.com/portapack-mayhem/mayhem-firmware/tree/next/firmware/application/external/gfxeq"
+                        target="_blank" rel="noopener noreferrer" class="project-card">
+                        <span class="project-title">Graphic EQ</span>
+                        <span class="project-desc">HackRF Portpack</span>
+                    </a>                    
+                    <a href="https://github.com/portapack-mayhem/mayhem-firmware/tree/next/firmware/application/external/snake"
+                        target="_blank" rel="noopener noreferrer" class="project-card">
+                        <span class="project-title">Snake Game</span>
+                        <span class="project-desc">HackRF Portapack</span>
+                    </a>
+                    <a href="https://github.com/portapack-mayhem/mayhem-firmware/tree/next/firmware/application/external/doom"
+                        target="_blank" rel="noopener noreferrer" class="project-card">
+                        <span class="project-title">DOOM Game</span>
+                        <span class="project-desc">HackRF Portapack</span>
+                    </a>
+                    <a href="https://github.com/portapack-mayhem/mayhem-firmware/tree/next/firmware/application/external/cvs_spam"
+                        target="_blank" rel="noopener noreferrer" class="project-card">
+                        <span class="project-title">CVS Spam App</span>
+                        <span class="project-desc">HackRF Portapack</span>
+                    </a>
+                    <a href="https://github.com/portapack-mayhem/mayhem-firmware/tree/next/firmware/application/external/shoppingcart_lock"
+                        target="_blank" rel="noopener noreferrer" class="project-card">
+                        <span class="project-title">Shopping Cart Lock</span>
+                        <span class="project-desc">HackRF Portapack</span>
+                    </a>
+                    <a href="https://apps.apple.com/us/app/tracker-detector/id6738701716?platform=iphone"
+                        target="_blank" rel="noopener noreferrer" class="project-card">
+                        <span class="project-title">Tracker Detector</span>
+                        <span class="project-desc">iOS app</span>
+                    </a>
+                    <a href="https://github.com/RocketGod-git/flipper-zero-rf-jammer" target="_blank"
+                        rel="noopener noreferrer" class="project-card">
+                        <span class="project-title">RF Jammer</span>
+                        <span class="project-desc">Flipper Zero</span>
+                    </a>
+                    <a href="https://lab.flipper.net/apps/radio_scanner" target="_blank" rel="noopener noreferrer"
+                        class="project-card">
+                        <span class="project-title">Radio Scanner</span>
+                        <span class="project-desc">Flipper Zero</span>
+                    </a>
+                    <a href="https://lab.flipper.net/apps/cyborg_detector" target="_blank" rel="noopener noreferrer"
+                        class="project-card">
+                        <span class="project-title">Cyborg Detector</span>
+                        <span class="project-desc">Flipper Zero</span>
+                    </a>
+                    <a href="https://lab.flipper.net/apps/umpire_indicator" target="_blank" rel="noopener noreferrer"
+                        class="project-card">
+                        <span class="project-title">Umpire Indicator</span>
+                        <span class="project-desc">Flipper Zero</span>
+                    </a>
+                    <a href="https://lab.flipper.net/apps/laser_tag" target="_blank" rel="noopener noreferrer"
+                        class="project-card">
+                        <span class="project-title">Laser Tag</span>
+                        <span class="project-desc">Flipper Zero</span>
+                    </a>
+                    <a href="https://dcgroups.betaskynet.com" target="_blank" rel="noopener noreferrer"
+                        class="project-card">
+                        <span class="project-title">DEF CON Groups Map</span>
+                        <span class="project-desc">Interactive map</span>
+                    </a>
+                    <a href="https://thepiratesplunder.com" target="_blank" rel="noopener noreferrer"
+                        class="project-card">
+                        <span class="project-title">TPP Website</span>
+                        <span class="project-desc">Argh Matey</span>
+                    </a>
+                    <a href="https://chatgptuncensored.com" target="_blank" rel="noopener noreferrer"
+                        class="project-card">
+                        <span class="project-title">ChatGPT Uncensored</span>
+                        <span class="project-desc">AI Chatbot</span>
+                    </a>
+                    <a href="https://svpd.online" target="_blank" rel="noopener noreferrer" class="project-card">
+                        <span class="project-title">SVPD Online</span>
+                        <span class="project-desc">Web project</span>
+                    </a>
+                </div>
+            </div> -->
+        </div>
+        <div class="repo-section">
+            <br>
+            <h2>Top Repositories from <a href="https://github.com/jjaskirat/">Jaskirat&#39;s GitHub</a></h2>
+            <p id="repo-count" style="text-align: center;"></p>
+            <div id="loading">Loading repositories...</div>
+            <div class="repo-list" id="repo-list"></div>
+            <div class="pagination">
+                <button id="prev-page">Previous</button>
+                <button id="next-page">Next</button>
+                <button id="view-all">View All</button>
+            </div>
+        </div>
+        <div class="stats">
+            <div class="stat-item">
+                <h3>Total Stars</h3>
+                <p id="total-stars">Loading...</p>
+            </div>
+            <div class="stat-item">
+                <h3>Total Forks</h3>
+                <p id="total-forks">Loading...</p>
+            </div>
+            <div class="stat-item">
+                <h3>Total Contributions</h3>
+                <p id="total-contributions">813</p>
+            </div>
+        </div>
+    </div>
+    <script src="bouncing-image.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
